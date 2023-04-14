@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/recipeItemsFragment"
+        android:name="com.example.myhealth.presentation.recipes.recipeItem.RecipeItemsFragment"
+        android:label="Meals"
+        tools:layout="@layout/fragment_recipe_items" >
+        <action
+            android:id="@+id/action_recipeItemsFragment_to_mealRecipeFragment"
+            app:destination="@id/mealRecipeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recipeCategoriesFragment"
+        android:name="com.example.myhealth.presentation.recipes.categories.RecipeCategoriesFragment"
+        android:label="Recipe Categories"
+        tools:layout="@layout/fragment_recipe_categories" >
+        <action
+            android:id="@+id/action_recipeCategoriesFragment_to_recipeItemsFragment"
+            app:destination="@id/recipeItemsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dietTipsFragment"
+        android:name="com.example.myhealth.presentation.dietTips.DietTipsFragment"
+        android:label="Diet Tips"
+        tools:layout="@layout/fragment_diet_tips" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.myhealth.presentation.HomeFragment"
+        android:label="My Health"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/calorieCounterFragment"
+        android:name="com.example.myhealth.presentation.calorieCounter.CalorieCounterFragment"
+        android:label="Calorie Counter"
+        tools:layout="@layout/fragment_calorie_counter" />
+    <fragment
+        android:id="@+id/mealRecipeFragment"
+        android:name="com.example.myhealth.presentation.recipes.mealRecipe.MealRecipeFragment"
+        android:label="Recipe"
+        tools:layout="@layout/fragment_meal_recipe" />
+</navigation>

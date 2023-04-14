@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Health</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tip1">Do not skip breakfast</string>
+    <string name="tip2">Eat regular meals</string>
+    <string name="tip3">Eat plenty of fruit and veg</string>
+    <string name="tip4">Get more active</string>
+    <string name="tip5">Drink plenty of water</string>
+    <string name="tip6">Eat high fibre foods</string>
+    <string name="tip7">Read food labels</string>
+    <string name="tip8">Use a smaller plate</string>
+    <string name="tip9">Do not ban foods</string>
+    <string name="tip10">Do not stock junk food</string>
+    <string name="tip11">Cut down on alcohol</string>
+
+</resources>
