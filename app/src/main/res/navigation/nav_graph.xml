@@ -43,4 +43,9 @@
         android:name="com.example.myhealth.presentation.recipes.mealRecipe.MealRecipeFragment"
         android:label="Recipe"
         tools:layout="@layout/fragment_meal_recipe" />
+    <fragment
+        android:id="@+id/productsFragment"
+        android:name="com.example.myhealth.presentation.products.ProductsFragment"
+        android:label="Products"
+        tools:layout="@layout/fragment_products" />
 </navigation>

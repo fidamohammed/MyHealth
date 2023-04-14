@@ -26,12 +26,11 @@ class MainActivity : AppCompatActivity() {
         val navView: NavigationView = binding.navView
 
         appBarConfiguration = AppBarConfiguration(setOf(
-            R.id.calorieCounterFragment, R.id.homeFragment, R.id.recipeCategoriesFragment, R.id.dietTipsFragment
+            R.id.calorieCounterFragment, R.id.homeFragment, R.id.recipeCategoriesFragment, R.id.dietTipsFragment, R.id.productsFragment
         ), drawer)
 
-        //val navHostFragment = supportFragmentManager.findFragmentById(R.id.myNavHostFragment) as NavHostFragment
+
         val navController = findNavController(R.id.myNavHostFragment)
-        //navController = navHostFragment.navController
         setupActionBarWithNavController(navController,appBarConfiguration)
         navView.setupWithNavController(navController)
     }

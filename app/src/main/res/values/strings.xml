@@ -15,4 +15,11 @@
     <string name="tip10">Do not stock junk food</string>
     <string name="tip11">Cut down on alcohol</string>
 
+    <string name="product1">Meal Replacement Shakes</string>
+    <string name="product1Link">https://www.theproteinworks.com/meal-replacement-shakes-bundle?gclid=CjwKCAjw8-OhBhB5EiwADyoY1UGQRDlW0ggini0pmQSyIrt6acEFA1PUrz8VR2LEEGm3w049A9VrrhoCMo4QAvD_BwE</string>
+
+    <string name="product2">Thermogenic Fat Burner</string>
+    <string name="product2Link">\https://www.bulk.com/uk/complete-thermogenic.html?view=ppc&amp;pid=3042&amp;gclid=CjwKCAjw8-OhBhB5EiwADyoY1ficb8KpX9oQpUvS6SqdDaiMLa_9-T8sI2UJP2ZVhoZP9POhyNphLxoCC6sQAvD_BwE</string>
+
+
 </resources>

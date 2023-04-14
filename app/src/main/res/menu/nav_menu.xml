@@ -20,6 +20,11 @@
             android:icon="@drawable/counter"
             android:title="Calorie Counter"/>
 
+    <item
+        android:id="@+id/productsFragment"
+        android:icon="@drawable/products"
+        android:title="Products"/>
+
 
 
 </menu>
